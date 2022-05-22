@@ -7,7 +7,7 @@
     "a4": "1945",
     "answer": "a1"
 }, {
-    "question": "Where is the Saxon Palace located?",
+    "question": "Where IS the Saxon Palace located?",
     "a1": "Gdansk",
     "a2": "London",
     "a3": "No-where",
@@ -25,7 +25,7 @@
     "a1": "Chopin",
     "a2": "Bach",
     "a3": "Vivaldi",
-    "a4": "Vangelis",
+    "a4": "Mozart",
     "answer": "a1"
 }, {
     "question": "When was the Saxon Palace destroyed by Germans?",
@@ -63,7 +63,7 @@
     "a4": "NATO",
     "answer": "a1"
 }, {
-    "question": "What architectural concept is conected to the Saxon Palace?",
+    "question": "What architectural concept is connected to the Saxon Palace?",
     "a1": "Warsaw's water pipes system",
     "a2": "Saxon Axis with the Garden, Theatre and the Iron Gate",
     "a3": "None",
