@@ -1,4 +1,4 @@
-[
+let questions = [
 {
     "question": "When was the Saxon Palace built?",
     "a1": "1639-1642",

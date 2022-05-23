@@ -26,10 +26,21 @@
     </head>
 
     <body>
-    
 
+        <div id="quizContainer" class="container">
+            <div class="title">Saxon Palace Quiz</div>
+            <div id="question" class="question"></div>
+            <label class="option"><input type="radio" name="option" value="1"> <span id="a1"></span></label>
+            <label class="option"><input type="radio" name="option" value="2"> <span id="a2"></span></label>
+            <label class="option"><input type="radio" name="option" value="3"> <span id="a3"></span></label>
+            <label class="option"><input type="radio" name="option" value="4"> <span id="a4"></span></label>
 
+            <button is="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Q</button>
+        </div>
 
+        <div id="result" class="container result" style="display:none;">
+
+        </div>
 
         <script src="assets/js/questions.js"></script>
         <script src="assets/js/script.js"></script>
