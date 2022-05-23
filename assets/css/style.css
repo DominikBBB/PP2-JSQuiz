@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    height: 330px;
+    height: 60%;
     width: 75%;
     position: absolute;
     top: 50%;
@@ -44,7 +44,7 @@ body {
 }
 
 .option {
-    width: 470px;
+    width: 50%;
     display: inline-block;
     padding: 10px 0 10px 15px;
     vertical-align: middle;
@@ -78,8 +78,30 @@ body {
     color: #f4f4f6;
 }
 
+
+/* 
+.score-area {
+    margin: 5px auto;
+    width: 60%;
+    font-size: 1.2rem;
+}
+
+.scores {
+    display: inline-block;
+    padding: 25px;
+} */
+
+
+
 .result {
     height: 100px;
     text-align: center;
     font-size: 75px;
 }
+
+
+.option input:checked .option {
+    background: greenyellow;
+    color: #0e0e10;
+}
+
