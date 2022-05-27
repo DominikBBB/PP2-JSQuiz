@@ -26,7 +26,45 @@
     </head>
 
     <body>
+        
+        <!--------------------------------------------------------------------------------Welcome section-->
+        <div id="home" class="container">
+            <h1 class="top-section"><p>The Saxon Palace Quiz:</h1>
+            <div class="mid-section">
+                <h2>Let's see how much You remember about</h2>
+                <h2>The Old-New Saxon Palace in Warsaw?</h2>
+            </div>
+            <div class="bttm-section">
+                <div>Please enter your name:</div>                
+                <form id="playername-form">
+                   <label for="playername"></label>
+                   <input type="text" id="playername" class="text-center" name="playername" pattern="[a-zA-Z][a-zA-Z  ]{1,}" placeholder="Your Name" required>
 
+                   <button type="submit" id="submit-button">Submit</button>
+                </form>
+            </div>
+        </div>
+        
+        <!-----------------------------------------------------------------------------Quiz-rules section-->
+        <div id="rules" class="container">
+            <h1 id="player" class="top-section">Player Name</h1>
+            <div class="mid-section">
+                <ul id="list-of-rules">
+                    <li>You will be asked to answer 10 questions related to the old-new Saxon Palace in Warsaw.</li>
+                    <li>Select the answer you think is the correct answer.</li>
+                    <li>Each question must be answered to move to the next question.</li>
+                    <li>Once the answer is selected hit the <strong>Submit </strong>button to move to the next question.</li>
+                </ul>
+            </div>
+            <div class="bttm-section">
+                <div>Best of luck !!!</div>                
+                <div>
+                    <button type="button" aria-label="Quiz start button" id="quiz-start">Let's play</button>
+                 </div>
+            </div>
+        </div>
+
+        <!-----------------------------------------------------------------------------------Quiz section--
         <div id="quizContainer" class="container">
             <div class="title">Saxon Palace Quiz</div>
 
@@ -38,15 +76,25 @@
 
             <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Q</button>
 
+
+        </div> -->
+
+        <!---------------------------------------------------------------------------Quiz-results section--
+        <div id="result" class="container result" style="display:none;">
+        </div> -->
+
+        <!--------------------------------------------------------------------------Quiz-feedback section--
+        <div id="feedback" class="container">
+        </div>-->
+
+
             <!-- <div class="score-area">
                 <p class="scores">Correct Answers <span id="score">0</span></p>
                 <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
             </div> -->
-        </div>
 
-        <div id="result" class="container result" style="display:none;">
 
-        </div>
+
 
         <script src="./assets/js/questions.js"></script>
         <script src="./assets/js/script.js"></script>

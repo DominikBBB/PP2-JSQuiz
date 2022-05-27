@@ -14,25 +14,64 @@ body {
 }
 
 .container {
-    height: 60%;
+    height: 600px;
     width: 75%;
     position: absolute;
-    top: 50%;
+    top: 450px;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    background-color: rgba(255, 76, 60, 0.9);
+    background-color: rgba(255, 76, 60);
+
     padding: 20px;
     border: 1px solid #0e0e10;
+    border-radius: 10px;
     box-shadow: 0 0 8px 3px #fff;
 }
 
-.title {
-    padding-top: 20px;
+.top-section {
+    padding-top: 10px;
     text-align: center;
-    font-size: 36px;
+    font-size: 55px;
     text-transform: uppercase;
-    color: #0e0e10;    
+    color: #0e0e10;
+    /* background-color: blue; */
 }
+
+.mid-section {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 30px;
+    color: #0e0e10;
+    /* background-color: green; */
+}
+
+.bttm-section {
+    bottom: 30px;
+    /* position: absolute; */
+    font-size: 30px;
+    color: #0e0e10;
+    text-align: center;    
+    /* background-color: yellow; */
+}
+
+/* --------------------------------------------------------------------------------Welcome section-- */
+
+#playername-form {
+
+}
+
+
+
+/* --------------------------------------------------------------------------------Rules section-- */
+
+#list-of-rules {
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+
+/* -----------------------------------------------------------------------------------Quiz section-- */
 
 .question {
     padding: 20px;
