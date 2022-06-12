@@ -63,6 +63,24 @@ body {
     background-color: yellow;
 }
 
+#left-bttm {
+    max-width: 33%;
+    float: left;
+    background-color: silver;    
+}
+
+#center-bttm {
+    max-width: 33%;
+    margin: 0 auto;
+    background-color: pink;
+}
+
+#right-bttm {
+    max-width: 33%;
+    float: right;
+    background-color: orangered;
+}
+
 .hide-content {
     display: none;
 }
@@ -107,6 +125,26 @@ body {
 #list-of-rules {
     text-align: left;
     margin: 0 35px;
+}
+
+.restart-btn {
+    border: none;
+    outline: none;
+    background: #f4f4f6;
+    color: #0e0e10;
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: left;
+    /* margin: 10px; */
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.restart-btn:hover {
+    background: #0e0e10;
+    color: #f4f4f6;
 }
 
 .next-btn {
