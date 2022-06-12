@@ -20,7 +20,7 @@
 
     <!-----------------------------------------------------------------------------Page1 Welcome section-->
 
-    <div id="home" class="container">
+    <!-- <div id="home" class="container">
         <div class="top-section">
             <h2>Saxon Palace Quiz:</h2>
         </div>
@@ -43,33 +43,34 @@
                     <label for="playername"></label>
                     <input type="text" id="playername" name="playername"
                         pattern="[a-zA-Z][a-zA-Z  ]{1,}" placeholder="Your Name" required>
-                    <button type="submit" id="enter-button">Enter</button>
+                    <button type="submit" id="enter-button" aria-label="Quiz enter button">Enter</button>
                 </form>
             
         </div>
-    </div>
+    </div> -->
 
     <!--------------------------------------------------------------------------Page2 Quiz-rules section-->
 
-    <!-- <div id="rules" class="container">
+    <div id="rules" class="container">
         <div id="player" class="top-section">
-            <h2>Player Name</h2>
+            <h3>Player Name</h3>
         </div>
         <div class="mid-section">
             <ul id="list-of-rules">
-                <li>You will be asked to answer 10 questions related to the old-new Saxon Palace in Warsaw.</li>
-                <li>Select the answer you think is the correct answer.</li>
-                <li>Each question must be answered to move to the next question.</li>
-                <li>Once the answer is selected hit the <strong>Submit </strong>button to move to the next question.</li>
+                <li>You will be asked 10 questions related to The Old-New Saxon Palace in Warsaw.</li>
+                <li>Each question has only 1 answer. Select one you think is the correct answer.</li>
+                <li>Once the answer is selected hit the <strong>Next button </strong>to move to the next question.</li>
+                <li>You can track your answers score during the quiz.</li>                
             </ul>
         </div>
         <div class="bttm-section">
-            <div>Best of luck !!!</div>
+            <h3>Best of luck !!!</h3>
             <div>
-                <button type="button" aria-label="Quiz start button" id="quiz-start">Let's play</button>
+                <button type="submit" id="start-button" class="next-btn" aria-label="Quiz start button">Start</button>
+                <!-- <button type="button" aria-label="Quiz start button" >Let's play</button> -->
             </div>
         </div>
-    </div> -->
+    </div>
 
     <!--------------------------------------------------------------------------------Page3 Quiz section-->
 
