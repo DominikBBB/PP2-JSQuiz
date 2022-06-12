@@ -2,40 +2,57 @@
 // Wait until DOM is loaded before running the quiz
 document.addEventListener('DOMContentLoaded', function() {});
 
+// --------------------------------------------------------------------------------Variables section--
+
 // Page1 variables
-let homeEl = document.getElementById('home');
-let playerNameEl = document.getElementById('playername');
-let form = document.getElementById('playername-form');
+let home = document.getElementById('home');
+let playerForm = document.getElementById('playername-form');
+let playerName = document.getElementById('playername');
+let enter = document.getElementById('enter-button');
 
 // Page2 variables
-let startButtonEl = document.getElementById('quiz-start');
-let rulesEl = document.getElementById('rules');
-let playerEl = document.getElementById('player');
-let quizEl = document.getElementById('quiz');
+let rules = document.getElementById('rules');
+let player = document.getElementById('player');
+let start = document.getElementById('start-button');
 
 // Page3 variables
-let 
+let quiz = document.getElementById('quiz');
 
 // Page4 variables
+let result = document.getElementById('result');
+
 // Page5 variables
+let feedback = document.getElementById('feedback');
+
+// -----------------------------------------------------------------------------Page1 Welcome section--
+
+// rules.style.display = 'none';
+// quiz.style.display = 'none';
+// result.style.display = 'none';
+// feedback.style.display = 'none';
 
 
-//
-
-rulesEl.style.display = 'none';
-
-form.addEventListener('submit', function(event) {
-    homeEl.style.display = 'none';
-    rulesEl.style.display = 'none';
-    playerEl.innerHTML = "Hi " + playerNameEl.value;
+playerForm.addEventListener('submit', function(event) {
+    home.style.display = 'none';
+    rules.classList.remove('hide-content');
+    player.innerHTML = "Hi " + playerName.value;
     event.preventDefault();
 });
 
 
-startButtonEl.addEventListener('click', function() {
-    rulesEl.classList.add('hide-content');
-    quizEl.classList.remove('hide-content');
-});
+
+
+
+
+
+// startButtonEl.addEventListener('click', function() {
+//     rulesEl.classList.add('hide-content');
+//     quizEl.classList.remove('hide-content');
+// });
+
+
+
+
 
 
 // let totalQuestions = questions.length;

@@ -47,6 +47,7 @@ body {
     text-align: center;
     font-size: 30px;
     color: #0e0e10;
+    /* background-color: #c7c7d1; */
     background-color: green;
 }
 
@@ -60,11 +61,15 @@ body {
     background-color: yellow;
 }
 
-/* .hide {
+.hide-content {
     display: none;
-} */
+}
 
 /* --------------------------------------------------------------------------------Page1 Welcome section-- */
+
+#logo-saski a img {
+    border: 5px solid #0e0e10;
+}
 
 #playername {
     border: none;
