@@ -14,7 +14,7 @@ body {
     background-color: #c7c7d1;
 }
 
-/* ----------------------------------------------------------------Main container and its sections-- */
+/* ----------------------------------------------------------------------Main container and its sections-- */
 
 .container {
     min-height: 500px;
@@ -60,19 +60,42 @@ body {
     background-color: yellow;
 }
 
-.hide {
+/* .hide {
     display: none;
+} */
+
+/* --------------------------------------------------------------------------------Page1 Welcome section-- */
+
+#playername {
+    border: none;
+    min-width: 300px;
+    height: 45px;
+    background: #f4f4f6;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
 }
 
-/* --------------------------------------------------------------------------------Welcome section-- */
+#enter-button {
+    border: none;
+    outline: none;
+    background: #f4f4f6;
+    color: #0e0e10;
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    /* margin-top: 10px; */
+}
 
-#playername-form {
-
+#enter-button:hover {
+    background: #0e0e10;
+    color: #f4f4f6;
 }
 
 
-
-/* ----------------------------------------------------------------------------------Rules section-- */
+/* -----------------------------------------------------------------------------Page2 Quiz-rules section-- */
 
 #list-of-rules {
     text-align: left;
@@ -81,7 +104,7 @@ body {
 
 
 
-/* -----------------------------------------------------------------------------------Quiz section-- */
+/* -----------------------------------------------------------------------------------Page3 Quiz section-- */
 
 .question {
     padding: 20px;
@@ -119,6 +142,7 @@ body {
     cursor: pointer;
     float: right;
     margin: 10px;
+    /* margin-right: 50px; */
     font-size: 20px;
 }
 
@@ -128,7 +152,7 @@ body {
 }
 
 
-/* -----------------------------------------------------------------------------------Score section-- */
+/* ---------------------------------------------------------------------------Page4 Quiz-results section-- */
 
 /* 
 .score-area {
@@ -157,6 +181,6 @@ body {
 }
 
 
-/* --------------------------------------------------------------------------------Feedback section-- */
+/* --------------------------------------------------------------------------Page5 Quiz-feedback section-- */
 
 
