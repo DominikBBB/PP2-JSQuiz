@@ -1,19 +1,32 @@
+
+// Wait until DOM is loaded before running the quiz
 document.addEventListener('DOMContentLoaded', function() {});
 
+// Page1 variables
 let homeEl = document.getElementById('home');
 let playerNameEl = document.getElementById('playername');
 let form = document.getElementById('playername-form');
 
+// Page2 variables
 let startButtonEl = document.getElementById('quiz-start');
 let rulesEl = document.getElementById('rules');
 let playerEl = document.getElementById('player');
 let quizEl = document.getElementById('quiz');
 
+// Page3 variables
+let 
 
+// Page4 variables
+// Page5 variables
+
+
+//
+
+rulesEl.style.display = 'none';
 
 form.addEventListener('submit', function(event) {
     homeEl.style.display = 'none';
-    rulesEl.classList.remove('hide-content');
+    rulesEl.style.display = 'none';
     playerEl.innerHTML = "Hi " + playerNameEl.value;
     event.preventDefault();
 });
@@ -25,59 +38,57 @@ startButtonEl.addEventListener('click', function() {
 });
 
 
+// let totalQuestions = questions.length;
+// let currentQuestion = 0;
+// let score = 0;
+
+// let container = document.getElementById('quizContainer');
+// let questionElement = document.getElementById('question');
+
+// let opt1 = document.getElementById('opt1');
+// let opt2 = document.getElementById('opt2');
+// let opt3 = document.getElementById('opt3');
+// let opt4 = document.getElementById('opt4');
+
+// let nextButton = document.getElementById('nextButton');
+// let resultContainer = document.getElementById('result');
 
 
-let totalQuestions = questions.length;
-let currentQuestion = 0;
-let score = 0;
-
-let container = document.getElementById('quizContainer');
-let questionElement = document.getElementById('question');
-
-let opt1 = document.getElementById('opt1');
-let opt2 = document.getElementById('opt2');
-let opt3 = document.getElementById('opt3');
-let opt4 = document.getElementById('opt4');
-
-let nextButton = document.getElementById('nextButton');
-let resultContainer = document.getElementById('result');
+// function loadQuestion (questionsIndex) {
+//     let q = questions[questionsIndex];
+//     questionElement.textContent = (questionsIndex + 1) + '. ' + q.question;
+//     opt1.textContent = q.a1;
+//     opt2.textContent = q.a2;
+//     opt3.textContent = q.a3;
+//     opt4.textContent = q.a4;
+// };
 
 
-function loadQuestion (questionsIndex) {
-    let q = questions[questionsIndex];
-    questionElement.textContent = (questionsIndex + 1) + '. ' + q.question;
-    opt1.textContent = q.a1;
-    opt2.textContent = q.a2;
-    opt3.textContent = q.a3;
-    opt4.textContent = q.a4;
-};
-
-
-function loadNextQuestion () {
-    let selectedOption = document.querySelector('input[type=radio]:checked');
+// function loadNextQuestion () {
+//     let selectedOption = document.querySelector('input[type=radio]:checked');
     
-    if(!selectedOption){
-        alert('Please select your answer!');
-        return;
-    }
+//     if(!selectedOption){
+//         alert('Please select your answer!');
+//         return;
+//     }
 
-    let answer = selectedOption.value;
-    if(questions[currentQuestion].answer === answer) {
-        score += 10;
-    }
+//     let answer = selectedOption.value;
+//     if(questions[currentQuestion].answer === answer) {
+//         score += 10;
+//     }
     
-    selectedOption.checked = false;
-    currentQuestion++;
-    if(currentQuestion == totalQuestions - 1) {
-        nextButton.textContent = 'Finish';
-    }
-    if(currentQuestion == totalQuestions) {
-        container.style.display = 'none';
-        resultContainer.style.display = '';
-        resultContainer.textContent = 'Your score: ' + score;
-        return;
-    }
-    loadQuestion(currentQuestion);
-}
+//     selectedOption.checked = false;
+//     currentQuestion++;
+//     if(currentQuestion == totalQuestions - 1) {
+//         nextButton.textContent = 'Finish';
+//     }
+//     if(currentQuestion == totalQuestions) {
+//         container.style.display = 'none';
+//         resultContainer.style.display = '';
+//         resultContainer.textContent = 'Your score: ' + score;
+//         return;
+//     }
+//     loadQuestion(currentQuestion);
+// }
 
-loadQuestion(currentQuestion);
+// loadQuestion(currentQuestion);

@@ -7,14 +7,17 @@
 }
 
 body {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-weight: 300;
     color: #0e0e10;
+    /* background-image: url(../images/saxon-palace-halfhalf.jpg) no-repeat center center; */
     background-color: #c7c7d1;
 }
 
+/* ----------------------------------------------------------------Main container and its sections-- */
+
 .container {
-    height: 600px;
+    min-height: 500px;
     width: 75%;
     position: absolute;
     top: 450px;
@@ -25,33 +28,40 @@ body {
     padding: 20px;
     border: 1px solid #0e0e10;
     border-radius: 10px;
-    box-shadow: 0 0 8px 3px #fff;
+    box-shadow: 0 0 8px 3px #f4f4f6;
 }
 
 .top-section {
+    min-height: 120px;
     padding-top: 10px;
     text-align: center;
     font-size: 55px;
     text-transform: uppercase;
     color: #0e0e10;
-    /* background-color: blue; */
+    background-color: blue;
 }
 
 .mid-section {
+    min-height: 260px;
     padding: 30px 0;
     text-align: center;
     font-size: 30px;
     color: #0e0e10;
-    /* background-color: green; */
+    background-color: green;
 }
 
 .bttm-section {
+    min-height: 120px;
     bottom: 30px;
-    /* position: absolute; */
     font-size: 30px;
     color: #0e0e10;
-    text-align: center;    
-    /* background-color: yellow; */
+    text-align: center;
+    margin: 0 auto;    
+    background-color: yellow;
+}
+
+.hide {
+    display: none;
 }
 
 /* --------------------------------------------------------------------------------Welcome section-- */
@@ -62,7 +72,7 @@ body {
 
 
 
-/* --------------------------------------------------------------------------------Rules section-- */
+/* ----------------------------------------------------------------------------------Rules section-- */
 
 #list-of-rules {
     text-align: left;
@@ -118,6 +128,8 @@ body {
 }
 
 
+/* -----------------------------------------------------------------------------------Score section-- */
+
 /* 
 .score-area {
     margin: 5px auto;
@@ -143,4 +155,8 @@ body {
     background: greenyellow;
     color: #0e0e10;
 }
+
+
+/* --------------------------------------------------------------------------------Feedback section-- */
+
 

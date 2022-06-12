@@ -1,6 +1,6 @@
 <p align="center"> <img src="assets/images-readme/R01-saski-logo-readme.jpg" alt="The Saxon Palace Logo" /> </p>
 
-# Saxon Palace Quiz
+# Saxon-Palace-Quiz
 
 ## by DB
 
@@ -61,12 +61,9 @@ This is my Portfolio Project 2 (PP2) which is a part of the Code Institute’s F
 
 # Project Overview:
 
-x
-x
-x
-x
-x
+The Saxon-Palace-Quiz is an online quiz for people who wants to test their knowledge about The Old-New Saxon Palace in Warsaw. Users will be invited to answer 10 questions based on the information provided on [The Old-New Saxon Palace](https://dominikbbb.github.io/PP1-Saxon-Palace/) website. They will be able to create their username. A score tracking system will calculate the final result. Users will be able to leave their feedback, find links to social media and contact information.
 
+This quiz web-app will target all people, both local residents and turists, who want to test their knowledge about past, present and future facts about The Old-New Saxon Palace.
 
 [Back to Table Of Contents](#table-of-contents)
 
@@ -78,11 +75,8 @@ x
 
 ## Target Audience:
 
-x
-x
-x
-x
-x
+- History enthusiasts,
+- Pupils, Student and Adults - People of all ages.
 
 [Back to Table Of Contents](#table-of-contents)
 
@@ -194,7 +188,7 @@ x
 
 The colours that will be used throughout the site for its main styling are shown below, these colours have been picked to keep within the design brief of maintaining a simplified viewing pleasure.
 
-![Colours Palette](assets/images-readme/xxx)
+![Colours Palette](docs/readme/images-r/R02-color-palette.png)
 
 The colours will be used in specific ways that complement one another:
 - Lavender Grey (#C7C7D1) for backgroud,
