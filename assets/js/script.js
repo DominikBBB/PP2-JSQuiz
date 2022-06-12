@@ -8,12 +8,12 @@ document.addEventListener('DOMContentLoaded', function() {});
 let home = document.getElementById('home');
 let playerForm = document.getElementById('playername-form');
 let playerName = document.getElementById('playername');
-let enter = document.getElementById('enter-button');
+// let enterBttn = document.getElementById('enter-button');
 
 // Page2 variables
 let rules = document.getElementById('rules');
 let player = document.getElementById('player');
-let start = document.getElementById('start-button');
+let startBttn = document.getElementById('start-button');
 
 // Page3 variables
 let quiz = document.getElementById('quiz');
@@ -26,12 +26,6 @@ let feedback = document.getElementById('feedback');
 
 // -----------------------------------------------------------------------------Page1 Welcome section--
 
-// rules.style.display = 'none';
-// quiz.style.display = 'none';
-// result.style.display = 'none';
-// feedback.style.display = 'none';
-
-
 playerForm.addEventListener('submit', function(event) {
     home.style.display = 'none';
     rules.classList.remove('hide-content');
@@ -39,16 +33,14 @@ playerForm.addEventListener('submit', function(event) {
     event.preventDefault();
 });
 
+// --------------------------------------------------------------------------Page2 Quiz-rules section--
 
+startBttn.addEventListener('click', function() {
+    rules.classList.add('hide-content');
+    quiz.classList.remove('hide-content');
+});
 
-
-
-
-
-// startButtonEl.addEventListener('click', function() {
-//     rulesEl.classList.add('hide-content');
-//     quizEl.classList.remove('hide-content');
-// });
+// --------------------------------------------------------------------------------Page3 Quiz section--
 
 
 
