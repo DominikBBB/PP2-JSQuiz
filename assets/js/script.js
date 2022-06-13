@@ -14,9 +14,10 @@ let playerName = document.getElementById('playername');
 let rules = document.getElementById('rules');
 let playerOne = document.getElementById('playerOne');
 let startBttn = document.getElementById('start-button');
+let restartBttn = document.getElementById('restart-button');
 
 // Page3 variables
-let quiz = document.getElementById('quiz');
+
 
 // Page4 variables
 let results = document.getElementById('results');
@@ -41,9 +42,11 @@ startBttn.addEventListener('click', function() {
     quiz.classList.remove('hide-content');
 });
 
+
+
 // --------------------------------------------------------------------------------Page3 Quiz section--
 
-
+let quiz = document.getElementById('quiz');
 
 let currentQuestion = 0;
 let score = 0;
@@ -59,6 +62,7 @@ let opt4 = document.getElementById('opt4');
 
 let nextButton = document.getElementById('nextButton');
 let resultContainer = document.getElementById('result');
+
 
 
 function loadQuestion (questionsIndex) {
@@ -119,3 +123,36 @@ function loadNextQuestion () {
 
 
 loadQuestion(currentQuestion);
+
+restartBttn.addEventListener('click', function() {
+    home.style.display = '';
+    rules.classList.add('hide-content');
+    quiz.classList.add('hide-content');
+    results.classList.add('hide-content');
+    feedback.classList.add('hide-content');
+    
+    let currentQuestion = 0;
+    let score = 0;
+
+    // loadQuestion();
+    loadQuestion(currentQuestion);
+});
+
+
+
+
+
+
+// function restart() {
+//     currentQuestion = 0;
+//     home.style.display = '';
+
+//     prevBtn.classList.remove("hide");
+//     nextBtn.classList.remove("hide");
+//     submitBtn.classList.remove("hide");
+//     trueBtn.classList.remove("hide");
+//     falseBtn.classList.remove("hide");
+//     score = 0;
+//     userScore.innerHTML = score;
+//     beginQuiz();
+//  }

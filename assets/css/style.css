@@ -202,28 +202,12 @@ body {
     text-align: center;
     font-size: 75px;
 }
-
+/* 
 .option input:checked .option {
     background: greenyellow;
     color: #0e0e10;
 }
-
-/* 
-.score-area {
-    margin: 5px auto;
-    width: 60%;
-    font-size: 1.2rem;
-}
-
-.scores {
-    display: inline-block;
-    padding: 25px;
-} */
-
-
-
-
-
+ */
 
 /* --------------------------------------------------------------------------Page5 Quiz-feedback section-- */
 
