@@ -14,6 +14,10 @@ body {
     background-color: #c7c7d1;
 }
 
+.hide-content {
+    display: none;
+}
+
 /* ----------------------------------------------------------------------Main container and its sections-- */
 
 .container {
@@ -38,7 +42,7 @@ body {
     font-size: 55px;
     text-transform: uppercase;
     color: #0e0e10;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .mid-section {
@@ -47,8 +51,8 @@ body {
     text-align: center;
     font-size: 30px;
     color: #0e0e10;
-    /* background-color: #c7c7d1; */
-    background-color: green;
+    background-color: #c7c7d1;
+    /* background-color: green; */
     border: 1px solid #0e0e10;
     border-radius: 10px;
 }
@@ -60,30 +64,27 @@ body {
     color: #0e0e10;
     text-align: center;
     margin: 0 auto;    
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 #left-bttm {
-    max-width: 33%;
+    width: 33%;
     float: left;
-    background-color: silver;    
+    /* background-color: silver;     */
 }
 
 #center-bttm {
-    max-width: 33%;
+    width: 33%;
     margin: 0 auto;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 #right-bttm {
-    max-width: 33%;
+    width: 33%;
     float: right;
-    background-color: orangered;
+    /* background-color: orangered; */
 }
 
-.hide-content {
-    display: none;
-}
 
 /* --------------------------------------------------------------------------------Page1 Welcome section-- */
 
@@ -111,7 +112,6 @@ body {
     border-radius: 10px;
     cursor: pointer;
     font-size: 20px;
-    /* margin-top: 10px; */
 }
 
 #enter-button:hover {
@@ -137,8 +137,8 @@ body {
     border-radius: 10px;
     cursor: pointer;
     float: left;
-    /* margin: 10px; */
     margin-left: 50px;
+    margin-top: 30px;
     font-size: 20px;
 }
 
@@ -157,8 +157,8 @@ body {
     border-radius: 10px;
     cursor: pointer;
     float: right;
-    /* margin: 10px; */
     margin-right: 50px;
+    margin-top: 30px;
     font-size: 20px;
 }
 
@@ -194,30 +194,19 @@ body {
     background: #0e0e10;
     color: #f4f4f6;
 }
-/* 
-((( .next-btn {
-    border: none;
-    outline: none;
-    background: #f4f4f6;
-    color: #0e0e10;
-    width: 100px;
-    height: 45px;
-    border-radius: 10px;
-    cursor: pointer;
-    float: right;
-    margin: 10px;
-   ((( margin-right: 50px; )))
-    font-size: 20px;
-}
-
-.next-btn:hover {
-    background: #0e0e10;
-    color: #f4f4f6;
-} )))
-
- */
 
 /* ---------------------------------------------------------------------------Page4 Quiz-results section-- */
+
+.result {
+    height: 100px;
+    text-align: center;
+    font-size: 75px;
+}
+
+.option input:checked .option {
+    background: greenyellow;
+    color: #0e0e10;
+}
 
 /* 
 .score-area {
@@ -233,17 +222,7 @@ body {
 
 
 
-.result {
-    height: 100px;
-    text-align: center;
-    font-size: 75px;
-}
 
-
-.option input:checked .option {
-    background: greenyellow;
-    color: #0e0e10;
-}
 
 
 /* --------------------------------------------------------------------------Page5 Quiz-feedback section-- */

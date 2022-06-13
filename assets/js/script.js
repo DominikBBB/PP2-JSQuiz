@@ -12,14 +12,15 @@ let playerName = document.getElementById('playername');
 
 // Page2 variables
 let rules = document.getElementById('rules');
-let player = document.getElementById('player');
+let playerOne = document.getElementById('playerOne');
 let startBttn = document.getElementById('start-button');
 
 // Page3 variables
 let quiz = document.getElementById('quiz');
 
 // Page4 variables
-let result = document.getElementById('result');
+let results = document.getElementById('results');
+let playerTwo = document.getElementById('player-two');
 
 // Page5 variables
 let feedback = document.getElementById('feedback');
@@ -29,7 +30,7 @@ let feedback = document.getElementById('feedback');
 playerForm.addEventListener('submit', function(event) {
     home.style.display = 'none';
     rules.classList.remove('hide-content');
-    player.innerHTML = "Hi " + playerName.value;
+    playerOne.innerHTML = "Hi " + playerName.value;
     event.preventDefault();
 });
 
@@ -44,60 +45,77 @@ startBttn.addEventListener('click', function() {
 
 
 
+let currentQuestion = 0;
+let score = 0;
+let totalQuestions = questions.length;
+
+let container = document.getElementById('quizContainer');
+let questionElement = document.getElementById('question');
+
+let opt1 = document.getElementById('opt1');
+let opt2 = document.getElementById('opt2');
+let opt3 = document.getElementById('opt3');
+let opt4 = document.getElementById('opt4');
+
+let nextButton = document.getElementById('nextButton');
+let resultContainer = document.getElementById('result');
 
 
-
-// let totalQuestions = questions.length;
-// let currentQuestion = 0;
-// let score = 0;
-
-// let container = document.getElementById('quizContainer');
-// let questionElement = document.getElementById('question');
-
-// let opt1 = document.getElementById('opt1');
-// let opt2 = document.getElementById('opt2');
-// let opt3 = document.getElementById('opt3');
-// let opt4 = document.getElementById('opt4');
-
-// let nextButton = document.getElementById('nextButton');
-// let resultContainer = document.getElementById('result');
-
-
-// function loadQuestion (questionsIndex) {
-//     let q = questions[questionsIndex];
-//     questionElement.textContent = (questionsIndex + 1) + '. ' + q.question;
-//     opt1.textContent = q.a1;
-//     opt2.textContent = q.a2;
-//     opt3.textContent = q.a3;
-//     opt4.textContent = q.a4;
-// };
-
-
-// function loadNextQuestion () {
-//     let selectedOption = document.querySelector('input[type=radio]:checked');
+function loadQuestion (questionsIndex) {
+    let q = questions[questionsIndex];
+    questionElement.textContent = (questionsIndex + 1) + '. ' + q.question;
+    opt1.textContent = q.a1;
+    opt2.textContent = q.a2;
+    opt3.textContent = q.a3;
+    opt4.textContent = q.a4;
     
-//     if(!selectedOption){
-//         alert('Please select your answer!');
-//         return;
-//     }
+// displayQuestionNumberRef.innerHTML = `<h1>Question ${questionNumber} of ${questions.length}</h1>`;
+};
 
-//     let answer = selectedOption.value;
-//     if(questions[currentQuestion].answer === answer) {
-//         score += 10;
+// function checkAnswer(answer) {
+//     if (answer === questions[currentQuiz].correct) {
+//       score++;
+//       correctAnswers++;
+//     } else {
+//       incorrectAnswers++;
 //     }
+//     currentQuiz++;
+//     questionNumber++;
+//     return;
+//   }
+
+
+
+
+
+function loadNextQuestion () {
+    let selectedOption = document.querySelector('input[type=radio]:checked');
     
-//     selectedOption.checked = false;
-//     currentQuestion++;
-//     if(currentQuestion == totalQuestions - 1) {
-//         nextButton.textContent = 'Finish';
-//     }
-//     if(currentQuestion == totalQuestions) {
-//         container.style.display = 'none';
-//         resultContainer.style.display = '';
-//         resultContainer.textContent = 'Your score: ' + score;
-//         return;
-//     }
-//     loadQuestion(currentQuestion);
-// }
+    if(!selectedOption){
+        alert('Please select your answer!');
+        return;
+    }
 
-// loadQuestion(currentQuestion);
+    let answer = selectedOption.value;
+    if(questions[currentQuestion].answer === answer) {
+        score += 1;
+    }
+    
+    selectedOption.checked = false;
+    currentQuestion++;
+    if(currentQuestion == totalQuestions - 1) {
+        nextButton.textContent = 'Finish';
+    }
+    if(currentQuestion == totalQuestions) {
+        quiz.classList.add('hide-content')
+        results.classList.remove('hide-content');
+        resultContainer.textContent = 'Your score is: ' + score + ' out of 10';
+        // playerTwo.innerHTML = "Congratulation " + playerName.value + ' !';
+        return;
+    }
+    loadQuestion(currentQuestion);
+}
+
+
+
+loadQuestion(currentQuestion);

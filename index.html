@@ -51,7 +51,7 @@
     <!--------------------------------------------------------------------------Page2 Quiz-rules section-->
 
     <div id="rules" class="container hide-content">
-        <div id="player" class="top-section">
+        <div id="playerOne" class="top-section">
             <h3>Player Name</h3>
         </div>
         <div class="mid-section">
@@ -67,65 +67,71 @@
                 <button type="button" id="restart-button" class="restart-btn" aria-label="Quiz restart button">Restart</button>
             </div>
             <div id="center-bttm">
-                <h3>Best of luck !!!</h3>
+                <!-- <h3>Best of luck !!!</h3> -->
             </div>
             <div id="right-bttm">
                 <button type="button" id="start-button" class="next-btn" aria-label="Quiz start button">Start</button>
             </div>
         </div>
     </div>
-
-                <!-- ((( <button type="button" aria-label="Quiz start button" >Let's play</button> ))) -->
-
-
+            
     <!--------------------------------------------------------------------------------Page3 Quiz section-->
 
-    <!-- <div id="quiz" class="container">
-        <div class="top-section score">
-            <span id="user-score">0</span>
-            <span> / </span>
-            <span id="total-score">0</span>
+    <div id="quiz" class="container hide-content">
+
+        <div id="qnumber" class="top-section">
+            <h3>Question 1 / 10</h3>
         </div>
         
-        <div class="mid-section">
-            <ul id="list-of-rules">
-                <li>You will be asked to answer 10 questions related to the old-new Saxon Palace in Warsaw.</li>
-                <li>Select the answer you think is the correct answer.</li>
-                <li>Each question must be answered to move to the next question.</li>
-                <li>Once the answer is selected hit the <strong>Submit </strong>button to move to the next question.</li>
-            </ul>
+        <div id="quizContainer" class="mid-section">
+            <div id="question" class="question"></div>
+            <label class="option"><input type="radio" name="option" value="1"> <span id="opt1"></span></label>
+            <label class="option"><input type="radio" name="option" value="2"> <span id="opt2"></span></label>
+            <label class="option"><input type="radio" name="option" value="3"> <span id="opt3"></span></label>
+            <label class="option"><input type="radio" name="option" value="4"> <span id="opt4"></span></label>
         </div>
+        
         <div class="bttm-section">
-            <div>Best of luck !!!</div>
-            <div>
-                <button type="button" aria-label="Quiz start button" id="quiz-start">Let's play</button>
+            <div id="left-bttm">
+                <button type="button" id="restart-button" class="restart-btn" aria-label="Quiz restart button">Restart</button>
+            </div>
+            <div id="center-bttm">
+                <!-- <h3>Current score</h3> -->
+            </div>
+            <div id="right-bttm">
+                <button type="button" id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Q</button>
+            </div>
+        </div>
+
+    </div>
+ 
+    <!------------------------------------------------------------------------Page4 Quiz-results section-->
+
+    <!-- <div id="result" class="container result" style="display:none;">
+    
+    </div> -->
+
+    <div id="results" class="container hide-content">
+
+        <div id="playerTwo" class="top-section">
+            <h3>Congratulations!</h3>
+        </div>
+
+        <div id="result" class="mid-section result">
+        </div>
+
+        <div class="bttm-section">
+            <div id="left-bttm">
+                <button type="button" id="restart-button" class="restart-btn" aria-label="Quiz restart button">Restart</button>
+            </div>
+            <div id="center-bttm">
+
+            </div>
+            <div id="right-bttm">
+                <button type="button" id="nextButton" class="next-btn" aria-label="Quiz start button">Feedback</button>
             </div>
         </div>
     </div>
-
-
-    <div id="quizContainer" class="container">
-        <div class="title">Saxon Palace Quiz</div>
-
-        <div id="question" class="question"></div>
-        <label class="option"><input type="radio" name="option" value="1"> <span id="opt1"></span></label>
-        <label class="option"><input type="radio" name="option" value="2"> <span id="opt2"></span></label>
-        <label class="option"><input type="radio" name="option" value="3"> <span id="opt3"></span></label>
-        <label class="option"><input type="radio" name="option" value="4"> <span id="opt4"></span></label>
-
-        <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Q</button>
-
-
-    </div> -->
-
-    <!------------------------------------------------------------------------Page4 Quiz-results section-->
-
-        <!-- <div id="result" class="container result" style="display:none;">
-        </div> -->
-
-
-
-
 
 
     <!-----------------------------------------------------------------------Page5 Quiz-feedback section-->
