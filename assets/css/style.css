@@ -15,6 +15,7 @@ body {
     background-image: url("../images/O01-saxon-halfhalf.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-size: 100%;
 }
 
 .hide-content {
