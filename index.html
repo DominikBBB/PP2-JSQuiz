@@ -9,9 +9,9 @@
     <meta name="description" content="Saxon Palace Quiz">
     <meta name="author" content="Dominik Brzeski">
     <meta name="keywords" content="Saxon Palace, quiz, knowledge, check, Warsaw">
-   
+
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/L02-saski-logo-small.jpg">
-    
+
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Saxon-Palace-Quiz</title>
@@ -38,106 +38,158 @@
             </div>
         </div>
         <div class="bttm-section">
-            <h3>Please enter your name:</h3>            
-                <form id="playername-form">
-                    <label for="playername"></label>
-                    <input type="text" id="playername" name="playername"
-                        pattern="[a-zA-Z][a-zA-Z  ]{1,}" placeholder="Your Name" required>
-                    <button type="submit" id="enter-button" aria-label="Quiz enter button">Enter</button>
-                </form>            
+            <h3>Please enter your name:</h3>
+            <form id="playername-form">
+                <label for="playername"></label>
+                <input type="text" id="playername" name="playername" pattern="[a-zA-Z][a-zA-Z  ]{1,}"
+                    placeholder="Your Name" required>
+                <button type="submit" id="enter-button" aria-label="Quiz Enter button">Enter</button>
+            </form>
         </div>
     </div>
 
     <!--------------------------------------------------------------------------Page2 Quiz-rules section-->
 
     <div id="rules" class="container hide-content">
-        <div id="playerOne" class="top-section">
+        <div id="player" class="top-section">
             <h3>Player Name</h3>
         </div>
         <div class="mid-section">
-            <ul id="list-of-rules">
+            <ul id="rulesBox">
                 <li>Our Quiz has 10 questions. Each question has only 1 answer.</li>
-                <li>Once you selected the answer, click the <strong>Next button </strong>to move to the next question.</li>
-                <li>You can always click the <strong>Restart button </strong> to start the quiz from the beginning.</li>
-                <li>You will receive the score at the end of the quiz. You can also track it during the quiz.</li>                
+                <li>Once the answer is selected, you will be moved to the next question.</li>
+                <li>You can always click the <strong>Next Button </strong> to skip the question or the <strong>Restart
+                        Button </strong> to start the quiz again.</li>
+                <li>You will receive the final score at the end of the quiz, where you can also check the correct
+                    answers.</li>
+                <li>Good Luck!</li>
             </ul>
         </div>
         <div class="bttm-section">
             <div id="left-bttm">
-                <button type="button" id="restart-button" class="restart-btn" aria-label="Quiz restart button">Restart</button>
+                <button type="button" id="restart-button" class="restart-btn" onclick="startQuiz()"
+                    aria-label="Quiz Restart button">Restart</button>
             </div>
             <div id="center-bttm">
-                <!-- <h3>Best of luck !!!</h3> -->
             </div>
             <div id="right-bttm">
-                <button type="button" id="start-button" class="next-btn" aria-label="Quiz start button">Start</button>
+                <button type="button" id="start-button" class="next-btn" aria-label="Quiz Start button">Start</button>
             </div>
         </div>
     </div>
-            
+
     <!--------------------------------------------------------------------------------Page3 Quiz section-->
 
     <div id="quiz" class="container hide-content">
 
-        <div id="qnumber" class="top-section">
+        <div id="stat" class="top-section">
             <h3>Question 1 / 10</h3>
         </div>
-        
-        <div id="quizContainer" class="mid-section">
+
+        <div id="quiz-container" class="mid-section">
             <div id="question" class="question"></div>
-            <label class="option"><input type="radio" name="option" value="1"> <span id="opt1"></span></label>
-            <label class="option"><input type="radio" name="option" value="2"> <span id="opt2"></span></label>
-            <label class="option"><input type="radio" name="option" value="3"> <span id="opt3"></span></label>
-            <label class="option"><input type="radio" name="option" value="4"> <span id="opt4"></span></label>
+            <ol type="A">
+                <li class="option"><span id="option0" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option1" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option2" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option3" onclick="calcScore(this)"></span></li>
+            </ol>
         </div>
-        
+
         <div class="bttm-section">
+
             <div id="left-bttm">
-                <button type="button" id="restart-button" class="restart-btn" aria-label="Quiz restart button">Restart</button>
+                <button type="button" id="restart-button" class="restart-btn" onclick="startQuiz()"
+                    aria-label="Quiz Restart button">Restart</button>
             </div>
+
             <div id="center-bttm">
-                <!-- <h3>Current score</h3> -->
             </div>
+
             <div id="right-bttm">
-                <button type="button" id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Q</button>
+                <button type="button" id="nextButton" class="next-btn nextQ"
+                    aria-label="Quiz Next Question button">Next</button>
             </div>
+
         </div>
 
     </div>
- 
-    <!------------------------------------------------------------------------Page4 Quiz-results section-->
 
-    <!-- <div id="result" class="container result" style="display:none;">
-    
-    </div> -->
+    <!------------------------------------------------------------------------Page4 Quiz-results section-->
 
     <div id="results" class="container hide-content">
 
-        <div id="playerTwo" class="top-section">
+        <div class="top-section">
             <h3>Congratulations!</h3>
         </div>
 
-        <div id="result" class="mid-section result">
+        <div id="scoreboard" class="mid-section">
+
+            <h2>Your Score:</h2>
+            <h2 id="points"></h2>
+
+            <!-- <div id="logo-saski">
+                <a href="https://dominikbbb.github.io/PP1-Saxon-Palace/" target="_blank" rel="noopener">
+                    <img src="assets/images/O01-saxon-halfhalf.jpg" width="250" height="100"
+                        alt="Picture of the The Tumb of Unknown Soldier with the part of The Old-New Saxon Palace"
+                        aria-label="Go to the old-new Saxon Palace webpage">
+                </a>
+            </div> -->
         </div>
 
         <div class="bttm-section">
             <div id="left-bttm">
-                <button type="button" id="restart-button" class="restart-btn" aria-label="Quiz restart button">Restart</button>
+                <button type="button" id="restart-button" class="restart-btn" onclick="startQuiz()"
+                    aria-label="Quiz Start Again button">Start Again</button>
             </div>
             <div id="center-bttm">
 
             </div>
             <div id="right-bttm">
-                <button type="button" id="nextButton" class="next-btn" aria-label="Quiz start button">Feedback</button>
+                <button type="button" id="check-answer" class="next-btn" onclick="checkAnswer()"
+                    aria-label="Check Answers button">Answers</button>
             </div>
         </div>
     </div>
 
 
-    <!-----------------------------------------------------------------------Page5 Quiz-feedback section-->
+    <!-----------------------------------------------------------------------Page5 Quiz-answers section-->
 
 
-        <!-- <div id="feedback" class="container">
+    <div id="answers" class="container hide-content">
+
+        <div class="top-section">
+            <h3>Answers:</h3>
+        </div>
+
+        <div class="mid-section">
+            <div class="answer">
+                <ol type="1" id="answersBox">
+                </ol>
+            </div>
+        </div>
+
+        <div class="bttm-section">
+
+            <div id="left-bttm">
+                <button type="button" id="restart-button" class="restart-btn" onclick="startQuiz()"
+                    aria-label="Quiz Start Again button">Start Again</button>
+            </div>
+
+            <div id="center-bttm">
+            </div>
+
+            <div id="right-bttm">
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-----------------------------------------------------------------------Page6 Quiz-feedback section-->
+
+
+    <!-- <div id="feedback" class="container">
         </div>-->
 
 

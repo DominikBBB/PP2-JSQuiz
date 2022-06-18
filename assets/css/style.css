@@ -9,9 +9,12 @@
 body {
     font-family: 'Roboto Slab', sans-serif;
     font-weight: 300;
-    color: #0e0e10;
-    /* background-image: url(../images/saxon-palace-halfhalf.jpg) no-repeat center center; */
     background-color: #c7c7d1;
+    color: #0e0e10;
+    
+    background-image: url("../images/O01-saxon-halfhalf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hide-content {
@@ -40,9 +43,8 @@ body {
     padding-top: 10px;
     text-align: center;
     font-size: 55px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #0e0e10;
-    /* background-color: blue; */
 }
 
 .mid-section {
@@ -52,7 +54,6 @@ body {
     font-size: 30px;
     color: #0e0e10;
     background-color: #c7c7d1;
-    /* background-color: green; */
     border: 1px solid #0e0e10;
     border-radius: 10px;
 }
@@ -64,29 +65,24 @@ body {
     color: #0e0e10;
     text-align: center;
     margin: 0 auto;    
-    /* background-color: yellow; */
 }
 
 #left-bttm {
     width: 33%;
     float: left;
-    /* background-color: silver;     */
 }
 
 #center-bttm {
     width: 33%;
     margin: 0 auto;
-    /* background-color: pink; */
 }
 
 #right-bttm {
     width: 33%;
     float: right;
-    /* background-color: orangered; */
 }
 
-
-/* --------------------------------------------------------------------------------Page1 Welcome section-- */
+/* -------------------------------------------------------------------------------Page1 Welcome section-- */
 
 #logo-saski a img {
     border: 5px solid #0e0e10;
@@ -120,9 +116,9 @@ body {
 }
 
 
-/* -----------------------------------------------------------------------------Page2 Quiz-rules section-- */
+/* ---------------------------------------------------------------------------Page2 Quiz-rules section-- */
 
-#list-of-rules {
+#rulesBox {
     text-align: left;
     margin: 0 35px;
 }
@@ -168,7 +164,7 @@ body {
 }
 
 
-/* -----------------------------------------------------------------------------------Page3 Quiz section-- */
+/* ---------------------------------------------------------------------------------Page3 Quiz section-- */
 
 .question {
     padding: 20px;
@@ -195,20 +191,32 @@ body {
     color: #f4f4f6;
 }
 
-/* ---------------------------------------------------------------------------Page4 Quiz-results section-- */
-
-.result {
-    height: 100px;
-    text-align: center;
-    font-size: 75px;
+#stat {
+    text-transform: capitalize;
 }
-/* 
-.option input:checked .option {
-    background: greenyellow;
+
+
+/* --------------------------------------------------------------------------Page4 Quiz-results section-- */
+
+
+/* --------------------------------------------------------------------------Page5 Quiz-answers section-- */
+
+.answer {    
+    padding: 20px;
+    font-size: 22px;
+    background: #f4f4f6;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
     color: #0e0e10;
 }
- */
 
-/* --------------------------------------------------------------------------Page5 Quiz-feedback section-- */
+#answersBox {
+    text-align: left;
+    margin: 0 35px;
+}
+
+
+
+/* ------------------------------------------------------------------------Page6 Quiz-feedback section-- */
 
 
