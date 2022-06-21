@@ -1,4 +1,5 @@
-<p align="center"> <img src="assets/images-readme/R01-saski-logo-readme.jpg" alt="The Saxon Palace Logo" /> </p>
+<p align="center"> <img src="docs/readme/readme-img/R03-saski-logo-readme.png" alt="The Saxon Palace Quiz Logo" /> </p>
+
 
 # Saxon-Palace-Quiz
 
@@ -6,7 +7,7 @@
 
 ---
 
-<p align="center"> <img src="assets/images-readme/xxx" alt="Mockup of Homepage" /> </p>
+<p align="center"> <img src="" alt="Mockup of Homepage" /> </p>
 
 
 ---
