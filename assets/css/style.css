@@ -11,32 +11,29 @@ body {
     font-weight: 300;
     background-color: #c7c7d1;
     color: #0e0e10;
-    
+
     background-image: url("../images/O01-saxon-halfhalf.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 100%;
 }
 
 .hide-content {
     display: none;
 }
 
-/* ----------------------------------------------------------------------Main container and its sections-- */
+/* -------------------------------------------------Main container and its sections-- */
 
 .container {
     min-height: 500px;
     width: 75%;
-    position: absolute;
-    top: 450px;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    background-color: rgba(255, 76, 60);
-
+    margin: 120px auto;
     padding: 20px;
+
     border: 1px solid #0e0e10;
     border-radius: 10px;
     box-shadow: 0 0 8px 3px #f4f4f6;
+
+    background-color: rgba(255, 76, 60);
 }
 
 .top-section {
@@ -65,7 +62,7 @@ body {
     font-size: 30px;
     color: #0e0e10;
     text-align: center;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
 
 #left-bttm {
@@ -83,7 +80,7 @@ body {
     float: right;
 }
 
-/* -------------------------------------------------------------------------------Page1 Welcome section-- */
+/* ----------------------------------------------------------Page1 Welcome section-- */
 
 #logo-saski a img {
     border: 5px solid #0e0e10;
@@ -117,7 +114,7 @@ body {
 }
 
 
-/* ---------------------------------------------------------------------------Page2 Quiz-rules section-- */
+/* -------------------------------------------------------Page2 Quiz-rules section-- */
 
 #rulesBox {
     text-align: left;
@@ -165,7 +162,7 @@ body {
 }
 
 
-/* ---------------------------------------------------------------------------------Page3 Quiz section-- */
+/* -------------------------------------------------------------Page3 Quiz section-- */
 
 .question {
     padding: 20px;
@@ -197,12 +194,12 @@ body {
 }
 
 
-/* --------------------------------------------------------------------------Page4 Quiz-results section-- */
+/* -----------------------------------------------------Page4 Quiz-results section-- */
 
 
-/* --------------------------------------------------------------------------Page5 Quiz-answers section-- */
+/* -----------------------------------------------------Page5 Quiz-answers section-- */
 
-.answer {    
+.answer {
     padding: 20px;
     font-size: 22px;
     background: #f4f4f6;
@@ -216,8 +213,43 @@ body {
     margin: 0 35px;
 }
 
+#powered {
+    border: none;
+    outline: none;
+    color: #0e0e10;
+    width: 175px;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    margin-right: 25px;
+    margin-top: 30px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+/* ----------------------------------------------------Page6 Quiz-feedback section-- */
+/* Future features of the quiz */
 
 
-/* ------------------------------------------------------------------------Page6 Quiz-feedback section-- */
+/* ------------------------------------------------------------------- Media queries */
 
+/* @media screen and (max-width: 1200px) {    
+}
 
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+} */
+
+@media screen and (max-width: 576px) {
+
+    h1,
+    h2,
+    h3,
+    li {
+        font-size: 60%;
+    }
+
+}

@@ -12,22 +12,24 @@
 
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/L02-saski-logo-small.jpg">
 
+    <!---------------------------------------------------------------CSS file source-->
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Saxon-Palace-Quiz</title>
 </head>
 
 <body>
-
-    <!-----------------------------------------------------------------------------Page1 Welcome section-->
+    <!---------------------------------------------------------Page1 Welcome section-->
 
     <div id="home" class="container">
+
         <div class="top-section">
             <h2>Saxon Palace Quiz:</h2>
         </div>
+
         <div class="mid-section">
             <h3>Welcome!</h3>
-            <h3>Let's check how much do you remember about</h3>
+            <h3>Let's check how much You remember about</h3>
             <h3>The Old-New Saxon Palace in Warsaw!</h3>
             <div id="logo-saski">
                 <a href="https://dominikbbb.github.io/PP1-Saxon-Palace/" target="_blank" rel="noopener">
@@ -37,6 +39,7 @@
                 </a>
             </div>
         </div>
+
         <div class="bttm-section">
             <h3>Please enter your name:</h3>
             <form id="playername-form">
@@ -46,14 +49,17 @@
                 <button type="submit" id="enter-button" aria-label="Quiz Enter button">Enter</button>
             </form>
         </div>
+
     </div>
 
-    <!--------------------------------------------------------------------------Page2 Quiz-rules section-->
+    <!------------------------------------------------------Page2 Quiz-rules section-->
 
     <div id="rules" class="container hide-content">
+
         <div id="player" class="top-section">
             <h3>Player Name</h3>
         </div>
+
         <div class="mid-section">
             <ul id="rulesBox">
                 <li>Our Quiz has 10 questions. Each question has only 1 answer.</li>
@@ -65,20 +71,25 @@
                 <li>Good Luck!</li>
             </ul>
         </div>
+
         <div class="bttm-section">
+
             <div id="left-bttm">
                 <button type="button" id="restart-button" class="restart-btn" onclick="startQuiz()"
                     aria-label="Quiz Restart button">Restart</button>
             </div>
+
             <div id="center-bttm">
             </div>
+
             <div id="right-bttm">
                 <button type="button" id="start-button" class="next-btn" aria-label="Quiz Start button">Start</button>
             </div>
+
         </div>
     </div>
 
-    <!--------------------------------------------------------------------------------Page3 Quiz section-->
+    <!-------------------------------------------------------------Page3 Quiz section-->
 
     <div id="quiz" class="container hide-content">
 
@@ -115,7 +126,7 @@
 
     </div>
 
-    <!------------------------------------------------------------------------Page4 Quiz-results section-->
+    <!----------------------------------------------------Page4 Quiz-results section-->
 
     <div id="results" class="container hide-content">
 
@@ -124,17 +135,8 @@
         </div>
 
         <div id="scoreboard" class="mid-section">
-
             <h2>Your Score:</h2>
             <h2 id="points"></h2>
-
-            <!-- <div id="logo-saski">
-                <a href="https://dominikbbb.github.io/PP1-Saxon-Palace/" target="_blank" rel="noopener">
-                    <img src="assets/images/O01-saxon-halfhalf.jpg" width="250" height="100"
-                        alt="Picture of the The Tumb of Unknown Soldier with the part of The Old-New Saxon Palace"
-                        aria-label="Go to the old-new Saxon Palace webpage">
-                </a>
-            </div> -->
         </div>
 
         <div class="bttm-section">
@@ -153,7 +155,7 @@
     </div>
 
 
-    <!-----------------------------------------------------------------------Page5 Quiz-answers section-->
+    <!-----------------------------------------------------Page5 Quiz-answers section-->
 
 
     <div id="answers" class="container hide-content">
@@ -180,26 +182,21 @@
             </div>
 
             <div id="right-bttm">
+                <span id="powered">
+                    <p>Powered by DB @2022</p>
+                </span>
             </div>
 
         </div>
 
     </div>
 
-    <!-----------------------------------------------------------------------Page6 Quiz-feedback section-->
+
+    <!---------------------------------------------------Page6 Quiz-feedback section-->
+    <!--Future features of the quiz-->
 
 
-    <!-- <div id="feedback" class="container">
-        </div>-->
-
-
-    <!-- <div class="score-area">
-                <p class="scores">Correct Answers <span id="score">0</span></p>
-                <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
-            </div> -->
-
-
-
+    <!--------------------------------------------------------------JS files sources-->
 
     <script src="./assets/js/questions.js"></script>
     <script src="./assets/js/script.js"></script>

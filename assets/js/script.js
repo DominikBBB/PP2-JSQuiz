@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function () {});
 
 
-// --------------------------------------------------------------------------------Page1 Welcome section--
+// --------------------------------------------------------------Page1 Welcome section--
 
 
 let home = document.getElementById('home');
@@ -17,7 +17,7 @@ playerForm.addEventListener('submit', function (event) {
 });
 
 
-// ------------------------------------------------------------------------------Page2 Quiz-rules section--
+// -----------------------------------------------------------Page2 Quiz-rules section--
 
 
 let rules = document.getElementById('rules');
@@ -31,7 +31,7 @@ startBttn.addEventListener('click', function () {
 });
 
 
-// -------------------------------------------------------------------Page3/4 Quiz & Quiz-results section--
+// ------------------------------------------------Page3/4 Quiz & Quiz-results section--
 
 
 let question = document.getElementById('question');
@@ -57,7 +57,8 @@ function displayQuestion() {
     option1.innerHTML = questionBank[i].option[1];
     option2.innerHTML = questionBank[i].option[2];
     option3.innerHTML = questionBank[i].option[3];
-    stat.innerHTML = "Question" + ' ' + (i + 1) + ' ' + 'of' + ' ' + questionBank.length;
+    stat.innerHTML = "Question:" + ' ' + (i + 1) + ' ' + '/' + ' ' + questionBank.length;
+    stat.style.fontSize = '300%';
 }
 
 
@@ -96,7 +97,7 @@ function startQuiz() {
 }
 
 
-// ---------------------------------------------------------------------------Page5 Quiz-answers section--
+// ----------------------------------------------------------Page5 Quiz-answers section--
 
 
 //Function to check correct answers
@@ -114,6 +115,12 @@ function checkAnswer() {
 }
 
 
+// --------------------------------------------------------Page6 Quiz-feedback section--
+// Future features of the quiz
 
 
+
+// -----------------------------------------------------------------Quiz start section--
+//Function to launch/start the first question
 displayQuestion();
+
