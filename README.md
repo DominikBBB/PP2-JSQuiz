@@ -175,7 +175,8 @@ This quiz-app is designed to be a one-page interactive website. The relevant sec
 
 ![MockUps](docs/readme/mockups/M00.png)
 
-[MockUps](docs/readme/mockups/MOCKUPS.md)
+
+##### [MockUps](docs/readme/mockups/MOCKUPS.md)
 
 
 
