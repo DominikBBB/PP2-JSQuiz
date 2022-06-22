@@ -185,17 +185,17 @@ This quiz-app is designed to be a one-page interactive website. The relevant sec
 
 ## Surface:
 
-### Colours:
+### Colors:
 
-The colours that will be used throughout the site for its main styling are shown below, these colours have been picked to keep within the design brief of maintaining a simplified viewing pleasure.
+The colors that will be used throughout the site for its main styling are shown below, these colors have been picked to keep within the design brief of maintaining a simplified viewing pleasure.
 
-![Colours Palette](docs/readme/readme-img/R02-color-palette.png)
+![Colors Palette](docs/readme/readme-img/R02-color-palette.png)
 
-The colours will be used in specific ways that complement one another:
+The colors will be used in specific ways that complement one another:
 - Lavender Grey (#C7C7D1) for backgroud,
 - Cultured (#F4F4F6) for text,
-- Rich Black Forga39 (#0E0E10) for text,
-- Sunset Orange (#FF4C3C) for buttons,
+- Rich Black Forga39 (#0E0E10) for text and buttons,
+- Sunset Orange (#FF4C3C) for backgroud,
 which maintaining good contrast levels.
 
 
@@ -218,8 +218,6 @@ There are two images used on the quiz-app website. The main source is [Polish Na
 # Features:
 
 ## Existing Features:
-
-#### [Existing Features](docs/readme/features/FEATURES.md)
 
 1. [Welcome Page](docs/readme/features/FEATURES.md)
 2. [Rules Page](docs/readme/features/FEATURES.md)
@@ -256,11 +254,13 @@ There are two images used on the quiz-app website. The main source is [Polish Na
 - [GitHub](https://github.com/),
 - [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/),
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse),
+- [JSHint](https://jshint.com/),
 - [W3school](https://www.w3schools.com/),
 - [Color Palette Generator](https://coolors.co/),
 - [Contrast Checker](https://webaim.org/resources/contrastchecker/),
 - [Responsive Design](http://ami.responsivedesign.is/),
-- [Google Fonts](https://fonts.google.com/).
+- [Google Fonts](https://fonts.google.com/),
+- [TinyPNG](https://tinypng.com/).
 
 ## Resources:
 
@@ -496,21 +496,26 @@ This will open VS CODE and allows you to enjoy coding.
 # Credits:
 
 - [Code Institute Course Content](https://learn.codeinstitute.net/dashboard) - Lines of code from walkthrough projects,
-- [Polish National Digital Archive](https://www.nac.gov.pl/) - content for historical information and images,
-- [Palac Saski - Saski 2018](https://saski2018.pl/) - content for historical information and images,
-- [Polish historical website](https://historia.org.pl) - content for historical information and images,
-- [Virtual World Guide](https://navtur.pl/) - content for historical information and images,
-- [Saski website](https://palacsaski.pl/) - content for historical information and images,
-- [Polish National Radio Broadcaster](https://www.polskieradio.pl/) - content for historical information and images,
-- [The official website of the President of the Republic of Poland](https://www.president.pl/) - content for information and images,
-- [Warsaw City News website](https://warszawa.naszemiasto.pl/) - Source of information,
-- ["Independent" Project](https://niepodlegla.gov.pl/) - content for historical information and images,
-- [Wikipedia](https://pl.wikipedia.org/) - content for historical information and images,
-- [YouTube](https://www.youtube.com/) - the video of the Saxon Palace reconstruction,
-- [GitHub Community](https://github.com/) - suggestions for lines of code and descriptions in read.me,
+- [The Old-New Saxon Palace in Warsaw website](https://dominikbbb.github.io/PP1-Saxon-Palace/) - content for historical information and images,
+- [Kevin Powell's YT channel](https://www.youtube.com/kepowob/about) - suggestions for lines of code,
+- [Web Hub YT channel](https://www.youtube.com/channel/UCJIBDQ7L5toQK0QhWeYJc5g/about) - suggestions for lines of code,
+- [Code2020 YT channel](https://www.youtube.com/c/Code2020/about) - suggestions for lines of code,
+- [freeCodeCamp.org YT channel](https://www.youtube.com/c/Freecodecamp/about) - suggestions for lines of code,
+- [WebDev Simplified YT channel](https://www.youtube.com/c/WebDevSimplified/about) - suggestions for lines of code,
+- [VerkkoNet YT channel](https://www.youtube.com/c/VerkkoNet/about) - suggestions for lines of code,
+- [GitHub Community](https://github.com/) - suggestions for lines of code, project's file structure, and descriptions in readme,
 - [Stack Overflow](https://stackoverflow.com/) - suggestions for lines of code,
-- [Grepper Community](https://www.codegrepper.com/) - suggestions for lines of code,
-- [Bootstrap 5](https://getbootstrap.com/) - suggestions for lines of code.
+- [Grepper Community](https://www.codegrepper.com/) - suggestions for lines of code.
+- [Polish National Digital Archive](https://www.nac.gov.pl/) - content for historical information,
+- [Palac Saski - Saski 2018](https://saski2018.pl/) - content for historical information,
+- [Polish historical website](https://historia.org.pl) - content for historical information,
+- [Virtual World Guide](https://navtur.pl/) - content for historical information,
+- [Saski website](https://palacsaski.pl/) - content for historical information,
+- [Polish National Radio Broadcaster](https://www.polskieradio.pl/) - content for historical information,
+- [The official website of the President of the Republic of Poland](https://www.president.pl/) - content for information,
+- [Warsaw City News website](https://warszawa.naszemiasto.pl/) - Source of information,
+- ["Independent" Project](https://niepodlegla.gov.pl/) - content for historical information,
+- [Wikipedia](https://pl.wikipedia.org/) - content for historical information and images.
 
   
 [Back to Table Of Contents](#table-of-contents)
