@@ -44,13 +44,12 @@ This is my Portfolio Project 2 (PP2) which is a part of the Code Institute’s F
     3. [Resources](#Resources)
 5. [Testing](#testing)
     1. [Tests](#tests)
-        1. [HTML/CSS](#html-css)
-        2. [JavaScript](#js)
-        3. [Manual testing Browser testing](#manual-testing-browser-testing)
-        4. [Performance Testing](#performance-testing)
-        5. [Visual testing](#visual-testing)
-        6. [Funcionality testing](#funcionality-testing)
-        7. [Testing User Stories](#testing-user-stories)
+        1. Functionality testing
+        2. Compatibility testing and Responsiveness
+        3. Performance testing
+        4. [Visual testing](#visual-testing)
+        5. [Funcionality testing](#funcionality-testing)
+        6. [Testing User Stories](#testing-user-stories)
     2. [Bugs and Fixes](#bugs-and-fixes)
 6. [Deployment](#deployment)
 7. [Credits](#credits)
@@ -290,28 +289,36 @@ There are two images used on the quiz-app website. The main source is [Polish Na
 
 # Testing:
 
+## Tests:
 
-### 1. [Functionality testing](docs/testing/TESTING-1.md):
+### [Functionality testing](docs/testing/TESTING-1.md):
 
     - W3C HTML Validator,
     - W3C Jigsaw CSS Validator,
     - JSHint JavaScript Validator,
     - W3C Link Checker.
 
+    All tests completed and passed.
 
-### 2. [Compatibility testing and Responsiveness](docs/testing/TESTING-2.md):
+### [Compatibility testing and Responsiveness](docs/testing/TESTING-2.md):
 
-    - Chrome, Edge, Opera, Galaxy S10
+    The quiz-app has been tested on each of these browsers and was found to work correctly as expected.
+    - Chrome, Firefox, Edge, Opera, Safari
+
+    A variety of devices were also used to view the website, including desktops/laptops, tablets and smartphones.
+    - Galaxy S10, iPhone 13, Galaxy A52s, Galaxy Note 10
+
+    All tests completed and passed.
 
 
-### 3. [Performance testing](docs/testing/TESTING-3.md):
+### [Performance testing](docs/testing/TESTING-3.md):
 
     - Chrome Dev Tools - Lighthouse
 
      All tests completed and passed.
 
 
-### 4. Visual testing:
+### Visual testing:
 
     - Color contrast was tested using:
 [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) and 
@@ -323,48 +330,74 @@ There are two images used on the quiz-app website. The main source is [Polish Na
 [Back to Table Of Contents](#table-of-contents)
 
 
-### 5. Funcionality testing:
+### Funcionality testing:
 
-x
-x
-x
-x
-x
-x
-x
-x
-x
+- All pages are responsive. No bugs found.
+- Playername input form with enter button work. No bugs found.
+- The link to the external website works. It's openning in seperated tab. No bugs found.
+- All Restart Buttons, Next Buttons, Start Again Buttons, Start button and Check Answers Button work. No bugs found.
+- All questions are loading correctly. The correct answers are calcutated correctly. No bugs found.
+- Hovering animations work as expected. No bugs found.
+- The curent number of the question displays correctly. No bugs found.
+- Display of correct answers works. No bugs found.
 
 
 [Back to Table Of Contents](#table-of-contents)
 
 
-### 6. Testing User Stories:
+### Testing User Stories:
 
-#### First time user:
+#### As a user:
 
-x
-x
-x
-x
-x
+1. I would like to be able to check my knowledge using an interesting online quiz-app,
 
-#### Returning User:
+The quiz is based on historical information provided on the Old-New Saxon Palace in Warsaw website. The quiz has 10 single-choice questions. The player is informed immediately whether he chose a correct or wrong answer. The player can check correct answers and starts the quiz again to improve his knowledge.
 
-x
-x
-x
-x
-x
+2. I would like to easily understand the quiz rules,
+
+The rules of the quiz were formulated as simply as possible, so they would be understandable by everyone. The rules are presented as a 4-points list. 
+These rules are displayed each time when the quiz starts.
+
+3. I would like the application to be easy to navigate / single-use learning,
+
+The quiz-app is central located with few button to click which makes the quiz very easy to navigate.
+
+4. I would like the quiz-app to be responsive on multiple different displays and devices,
+
+I followed rules which allowed me to create a responsive web-app. Media queries were also implemented to fit on the smallest mobile phone screens. Responsiveness testing confirmed correct code used.
+
+5. I would like to know my final score and check the correct answers,
+
+When all questions are answered, a new section will be displayed. In this section, the player will be informed that the quiz is over and how many questions have been answered correctly.
+
+6. I would like to have a chance to retake the quiz to improve my results,
+
+I added a Restart Button and Start Again Button to allow players to retry the quiz.
+
+7. I would like to track the quiz progress,
+
+I added a top section that displays the number of the currently presented question, so the player knows how many questions are left until the end of the quiz.
+
+8. I would like to find the link to the website where I can learn about Saxon Palace before I start the quiz.
+
+I added the link to the Old-New Saxon Palace in Warsaw website on the quiz welcome page, which allows the user to learn about the Palace before he starts the quiz.
 
 
 #### As a site creator:
 
-x
-x
-x
-x
-x
+ 1. I want to make that the quiz-app and website are user-friendly,
+
+The quiz-app was designed for mobile-first approach. All pages contain few number of buttons. Colors are toned with good contrast. Aria-labels are added to the code.
+
+ 2. I want to make sure that the quiz's rules are easily to understand,
+
+The rules of the quiz were formulated as simply as possible, so they would be understandable by everyone. The rules are presented as a 4-points list. 
+These rules are displayed each time when the quiz starts.
+
+ 3. I want to ensure there are right enough information to prevent the user from becoming bored.
+ 
+The quiz-app is designed with the minimum complexity for maximum enjoyment. However, the variety of questions is enough to create a challenging quiz.
+
 
 
 All user expectations were fulfilled and tested to ensure user satisfaction.
@@ -375,7 +408,24 @@ All user expectations were fulfilled and tested to ensure user satisfaction.
 
 ## Bugs and Fixes:
 
-A few numbers of bugs showed up during the HTML and CSS validation process. They are all fixed and all pages passed validation process. Full list of bugs and validation results after they were fixed: [Bugs and Fixes](TESTING-1.md)
+A few numbers of bugs showed up during the HTML and JS validation process.
+They are all fixed and all pages passed validation processes.
+Full list of bugs and validation results after they were fixed: [Bugs and Fixes](docs/testing/TESTING-1.md)
+
+
+HTML:
+
+1. All duplicate id-atribiutes have been changed into class-atribiutes. CSS file was updated too,
+2. Id="restart-button" atribiutes have been removed,
+3. Empty heading was fullfill with placeholder "Points",
+4. <span> element has beed changed into <div> element,
+5. All comments which created warnings were edited. 
+
+JS:
+
+1. To fix warnings, /*jshint esversion: 6 */ needed to be added at the top of each js file,
+2. To fix 4 undefined variables, I tempraly copied questionBank variable from separeted .js file into script.js for testing purpose. Moreover, I created 3 new variables: stat, quiz and results.
+3. There are 3 unused variables (calcScore, startQuiz, checkAnswers) which are onclick functions located in html file.
 
 No more errors found.
 
