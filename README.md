@@ -7,7 +7,7 @@
 
 ---
 
-<p align="center"> <img src="docs/readme/mockups/M01.png" alt="Mockup of Homepage" /> </p>
+<p align="center"> <img src="docs/readme/mockups/M00.png" alt="Mockup of Homepage" /> </p>
 
 
 ---
@@ -138,12 +138,12 @@ My goal in this project is to promote the Saxon Palace in Warsaw to the market t
 - Correct and wrong answers tracking system,
 - Final score,
 - List of correct answers,
+- Feedback and newsletter subscription form,
 - Link to the source of information.
 
 
 #### Features that are to be considered for future releases:
 
-- Feedback and newsletter subscription form,
 - Dark mode,
 - Polish language version.
 
@@ -164,7 +164,7 @@ This quiz-app is designed to be a one-page interactive website. The relevant sec
 ### Wireframes:
 
 
-![Wireframes](assets/images-readme/xxx) 
+![Wireframes](docs/readme/wireframes/W02.jpg) 
 
 
 [Back to Table Of Contents](#table-of-contents)
@@ -173,7 +173,9 @@ This quiz-app is designed to be a one-page interactive website. The relevant sec
 ### Mockups:
 
 
-![About Page](assets/images-readme/xxx)
+![MockUps](docs/readme/mockups/M00.png)
+
+[MockUps](docs/readme/mockups/MOCKUPS.md)
 
 
 
