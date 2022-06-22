@@ -176,7 +176,7 @@ This quiz-app is designed to be a one-page interactive website. The relevant sec
 ![MockUps](docs/readme/mockups/M00.png)
 
 
-##### [MockUps](docs/readme/mockups/MOCKUPS.md)
+#### [MockUps](docs/readme/mockups/MOCKUPS.md)
 
 
 
@@ -189,7 +189,7 @@ This quiz-app is designed to be a one-page interactive website. The relevant sec
 
 The colours that will be used throughout the site for its main styling are shown below, these colours have been picked to keep within the design brief of maintaining a simplified viewing pleasure.
 
-![Colours Palette](docs/readme/images-r/R02-color-palette.png)
+![Colours Palette](docs/readme/readme-img/R02-color-palette.png)
 
 The colours will be used in specific ways that complement one another:
 - Lavender Grey (#C7C7D1) for backgroud,
@@ -201,16 +201,12 @@ which maintaining good contrast levels.
 
 ### Typography:
 
-x
-x
-x
+'Brygada 1918' fonts were chosen as typeface which is based on the catalogue entry of the Polish National Type Foundry from 1954, and a set of matrices found at the Book Arts Museum in Poland. These fonts are the part of the revival project created for the celebration of the 100 years of independance of the Republic of Poland in 2018.
 
 
-### Images & Icons:
+### Images:
 
-x
-x
-x
+There are two images used on the quiz-app website. The main source is [Polish National Digital Archive](https://www.nac.gov.pl/).
 
 
 [Back to Table Of Contents](#table-of-contents)
@@ -223,17 +219,19 @@ x
 
 ## Existing Features:
 
-x
-x
-x
-x
-x
+#### [Existing Features](docs/readme/features/FEATURES.md)
+
+1. [Welcome Page:](docs/readme/features/FEATURES.md)
+2. [Rules Page:](docs/readme/features/FEATURES.md)
+3. [Quiz Page:](docs/readme/features/FEATURES.md)
+4. [Results Page:](docs/readme/features/FEATURES.md)
+5. [Answers Page:](docs/readme/features/FEATURES.md)
+
 
 
 ## Future Features:
 
-x
-x
+- Feedback and newsletter subscription form,
 - Dark mode,
 - Polish language version.
 
