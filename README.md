@@ -7,7 +7,7 @@
 
 ---
 
-<p align="center"> <img src="" alt="Mockup of Homepage" /> </p>
+<p align="center"> <img src="docs/readme/mockups/M01.png" alt="Mockup of Homepage" /> </p>
 
 
 ---
@@ -62,7 +62,7 @@ This is my Portfolio Project 2 (PP2) which is a part of the Code Institute’s F
 
 # Project Overview:
 
-The Saxon-Palace-Quiz is an online quiz for people who wants to test their knowledge about The Old-New Saxon Palace in Warsaw. Users will be invited to answer 10 questions based on the information provided on [The Old-New Saxon Palace](https://dominikbbb.github.io/PP1-Saxon-Palace/) website. They will be able to create their username. A score tracking system will calculate the final result. Users will be able to leave their feedback, find links to social media and contact information.
+The Saxon-Palace-Quiz is an online quiz for people who wants to test their knowledge about The Old-New Saxon Palace in Warsaw. Users will be invited to answer 10 questions based on the information provided on [The Old-New Saxon Palace](https://dominikbbb.github.io/PP1-Saxon-Palace/) website. They will be able to create their username. A score tracking system will calculate the final result.
 
 This quiz web-app will target all people, both local residents and turists, who want to test their knowledge about past, present and future facts about The Old-New Saxon Palace.
 
@@ -77,6 +77,7 @@ This quiz web-app will target all people, both local residents and turists, who 
 ## Target Audience:
 
 - History enthusiasts,
+- Local residents in Warsaw,
 - Pupils, Student and Adults - People of all ages.
 
 [Back to Table Of Contents](#table-of-contents)
@@ -84,23 +85,22 @@ This quiz web-app will target all people, both local residents and turists, who 
 
 ## User Stories:
 
-- First time user:
+- As a user:
 
- x
- x
- x
- 
-- Returning User:
+ 1. I would like to be able to check my knowledge using an interesting online quiz-app,
+ 2. I would like to easily understand the quiz rules,
+ 3. I would like the application to be easy to navigate / single-use learning,
+ 4. I would like the site to be responsive on multiple different displays and devices,
+ 4. I would like to know my final score and check the correct answers,
+ 5. I would like to have a chance to retake the quiz to improve my results,
+ 6. I would like to track the quiz progress,
+ 7. I would like to find the link to the website where I can learn about Saxon Palace before I start the quiz.
 
- x
- x
- x
- 
 - As a site creator:
 
- x
- x
- x
+ 1. I want to make that the quiz-app and website are user friendly,
+ 2. I want to make sure that the quiz's rules are easily to understand,
+ 3. I want to ensure there are right enough information to prevent the user from becoming bored.
  
 
 [Back to Table Of Contents](#table-of-contents)
@@ -110,21 +110,19 @@ This quiz web-app will target all people, both local residents and turists, who 
 
 ### Project Goals:
 
-x
-x
-x
+My goal in this project is to promote the Saxon Palace in Warsaw to the market to allow the users learn about history of the Palace and to raise the awareness of the purpose of the reconstruction.
 
 ### Business Goals:
 
-x
-x
-x
+1. Promote the Saxon Palace in Warsaw and its surroundings,
+2. Allow the visitors of the quiz-app to check and improve their knowledge about the Saxon Palace,
+3. Make easy to navigate web-app.
 
 ### Customer Goals:
 
-x
-x
-x
+1. Check and improve my knowledge about the Saxon Palace in Warsaw,
+2. Easy to understand and navigate the quiz game,
+3. Enjoying the time when playing the quiz.
 
 
 [Back to Table Of Contents](#table-of-contents)
@@ -134,17 +132,18 @@ x
 
 #### The scope of Saxon Palace Quiz page in its first release is defined by the following features:
 
-x
-x
-x
-x
-x
+- Fully responsive design quiz web-app,
+- Interactive web-app which allows visitor to choose the player name,
+- The number of single-choice questions which progress can be tracked,
+- Correct and wrong answers tracking system,
+- Final score,
+- List of correct answers,
+- Link to the source of information.
+
 
 #### Features that are to be considered for future releases:
 
-x
-x
-x
+- Feedback and newsletter subscription form,
 - Dark mode,
 - Polish language version.
 
@@ -154,9 +153,7 @@ x
 
 ## Structure:
 
-x
-x
-x
+This quiz-app is designed to be a one-page interactive website. The relevant sections of the quiz are shown or hidden, based on the user activity. The user clicks on the button in order to proceed through the quiz. To start the quiz, user need to enter their name which will be then populated on the welcome screen where the rules of the quiz are displayed. When the user is familiar with the rules, they can click the Start Button to start the quiz. Questions are presented one by one and the current question number is shown on the top of the page. To move to the next question, the current question must be answered. There are single-choice questions and the user will be informed immediately if he chose the correct or wrong answer. The summary of correctly answered questions is displayed on the last screen. Then the user has two choices; to take the quiz again by clicking on the Start Again button or to check correct answers by clicking the Check Answers Button. The user also can start the quiz again at any time by clicking the Restart Button. User can visit the Old-New Saxon Palace in Warsaw website before he starts the quiz by clicking the picture at the start page of the quiz. The link will open the Old-New Saxon Palace in Warsaw website in a new tab.
 
 
 [Back to Table Of Contents](#table-of-contents)
