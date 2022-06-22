@@ -221,12 +221,11 @@ There are two images used on the quiz-app website. The main source is [Polish Na
 
 #### [Existing Features](docs/readme/features/FEATURES.md)
 
-1. [Welcome Page:](docs/readme/features/FEATURES.md)
-2. [Rules Page:](docs/readme/features/FEATURES.md)
-3. [Quiz Page:](docs/readme/features/FEATURES.md)
-4. [Results Page:](docs/readme/features/FEATURES.md)
-5. [Answers Page:](docs/readme/features/FEATURES.md)
-
+1. [Welcome Page](docs/readme/features/FEATURES.md)
+2. [Rules Page](docs/readme/features/FEATURES.md)
+3. [Quiz Page](docs/readme/features/FEATURES.md)
+4. [Results Page](docs/readme/features/FEATURES.md)
+5. [Answers Page](docs/readme/features/FEATURES.md)
 
 
 ## Future Features:
@@ -247,41 +246,38 @@ There are two images used on the quiz-app website. The main source is [Polish Na
 ## Languages:
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5),
-- [CSS3](https://en.wikipedia.org/wiki/CSS).
+- [CSS3](https://en.wikipedia.org/wiki/CSS),
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript).
 
 ## Other Technologies:
 
 - [Gitpd & Git](https://gitpod.io/),
 - [Visual Studio Code](https://code.visualstudio.com/),
 - [GitHub](https://github.com/),
-- [Bootstrap 5](https://getbootstrap.com/),
 - [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/),
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse),
 - [W3school](https://www.w3schools.com/),
 - [Color Palette Generator](https://coolors.co/),
 - [Contrast Checker](https://webaim.org/resources/contrastchecker/),
 - [Responsive Design](http://ami.responsivedesign.is/),
-- [Google Fonts](https://fonts.google.com/),
-- [Font Awesome](https://fontawesome.com/).
+- [Google Fonts](https://fonts.google.com/).
 
 ## Resources:
 
 - [Code Institute Course Content](https://learn.codeinstitute.net/dashboard) - Main source of fundamental knowledge,
 - [Code Institute SLACK Community] - Source of assistance,
-- [Polish National Digital Archive](https://www.nac.gov.pl/) - Source of history information and images,
-- [Palac Saski - Saski 2018](https://saski2018.pl/) - Source of history information and images,
-- [Polish historical website](https://historia.org.pl) - Source of history information and images,
-- [Virtual World Guide](https://navtur.pl/) - Source of history information and images,
-- [Saski website](https://palacsaski.pl/) - Source of history information and images,
-- [Polish National Radio Broadcaster](https://www.polskieradio.pl/) - Source of history information and images,
+- [Polish National Digital Archive](https://www.nac.gov.pl/) - Source of history information,
+- [Palac Saski - Saski 2018](https://saski2018.pl/) - Source of history information,
+- [Polish historical website](https://historia.org.pl) - Source of history information,
+- [Virtual World Guide](https://navtur.pl/) - Source of history information,
+- [Saski website](https://palacsaski.pl/) - Source of history information,
+- [Polish National Radio Broadcaster](https://www.polskieradio.pl/) - Source of history information,
 - [The official website of the President of the Republic of Poland](https://www.president.pl/) - Source of information,
 - [Warsaw City News website](https://warszawa.naszemiasto.pl/) - Source of information,
-- ["Independent" Project](https://niepodlegla.gov.pl/) - Source of history information and images,
+- ["Independent" Project](https://niepodlegla.gov.pl/) - Source of history information,
 - [Wikipedia](https://pl.wikipedia.org/) - Source of history information and images,
-- [YouTube](https://www.youtube.com/) - Source of videos,
 - [Grammarly](https://app.grammarly.com/) - help with grammar and typo check,
-- [Google Maps](https://www.google.com/maps) - Source of the maps,
-- [GitHub Community](https://github.com/) - Source of information, soluttions and suggestions,
+- [GitHub Community](https://github.com/) - Source of information, solutions and suggestions,
 - [Stack Overflow](https://stackoverflow.com/) - Source of knowledge,
 - [MDN Web Docs](https://developer.mozilla.org/) - Source of knowledge.
 
