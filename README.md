@@ -418,7 +418,7 @@ HTML:
 1. All duplicate id-atribiutes have been changed into class-atribiutes. CSS file was updated too,
 2. Id="restart-button" atribiutes have been removed,
 3. Empty heading was full fill with placeholder "Points",
-4. <span> element has been changed into <div> element,
+4. span element has been changed into div element,
 5. All comments which created warnings were edited. 
 
 JS:
