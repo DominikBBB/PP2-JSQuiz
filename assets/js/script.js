@@ -1,13 +1,7 @@
+/*jshint esversion: 6 */
+
 // Wait until DOM is loaded before running the quiz
 document.addEventListener('DOMContentLoaded', function () {});
-
-// JS Validator bugs fixed
-let stat = document.getElementById('stat');
-let quiz = document.getElementById('quiz');                    
-let results = document.getElementById('results');                    
-// let restartBttn = document.getElementById('restart-button');                    
-// let quizContainer = document.getElementById('quiz-container');
-
 
 
 // --------------------------------------------------------------Page1 Welcome section--
@@ -31,7 +25,7 @@ playerForm.addEventListener('submit', function (event) {
 let rules = document.getElementById('rules');
 let player = document.getElementById('player');
 let startBttn = document.getElementById('start-button');
-// let restartBttn = document.getElementById('restart-button');
+let quiz = document.getElementById('quiz');                    
 
 startBttn.addEventListener('click', function () {
     rules.style.display = 'none';
@@ -43,7 +37,6 @@ startBttn.addEventListener('click', function () {
 
 
 let question = document.getElementById('question');
-// let quizContainer = document.getElementById('quiz-container');
 let option0 = document.getElementById('option0');
 let option1 = document.getElementById('option1');
 let option2 = document.getElementById('option2');
@@ -51,6 +44,8 @@ let option3 = document.getElementById('option3');
 let nextQ = document.querySelector('.nextQ');
 let points = document.getElementById('points');
 let span = document.querySelectorAll('span');
+let stat = document.getElementById('stat');
+let results = document.getElementById('results');                    
 let i = 0;
 let score = 0;
 
@@ -121,11 +116,6 @@ function checkAnswer() {
         answersBox.appendChild(list);
     }
 }
-
-
-// --------------------------------------------------------Page6 Quiz-feedback section--
-// Future features of the quiz
-
 
 
 // -----------------------------------------------------------------Quiz start section--

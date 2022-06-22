@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 let questionBank = [{
         question: "When was the Saxon Palace built?",
         option: ["1639-1642", "1611", "2022", "1945"],
@@ -10,8 +12,7 @@ let questionBank = [{
         question: "When will the Saxon Palace be restored?",
         option: ["1945", "2100", "2023-2030", "2018"],
         answer: "2023-2030"
-    },
-    {
+    }, {
         question : "Which famous pianist was living in the Saxon Palace?",
         option : ["Chopin", "Bach", "Vivaldi", "Mozart"],
         answer : "Chopin"
@@ -40,4 +41,4 @@ let questionBank = [{
         option : ["Warsaw's water pipes system", "Saxon Axis with the Garden, Theatre and the Iron Gate", "None", "Love Parade tents"],
         answer: "Saxon Axis with the Garden, Theatre and the Iron Gate"
     },
-]
+];

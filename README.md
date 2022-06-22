@@ -110,7 +110,7 @@ This quiz web-app will target all people, both local residents and turists, who 
 
 ### Project Goals:
 
-My goal in this project is to promote the Saxon Palace in Warsaw to the market to allow the users learn about history of the Palace and to raise the awareness of the purpose of the reconstruction.
+My goal in this project is to provide a challenging quiz to entertain online users. And also to promote the Saxon Palace in Warsaw to the market.
 
 ### Business Goals:
 
@@ -290,91 +290,40 @@ There are two images used on the quiz-app website. The main source is [Polish Na
 
 # Testing:
 
-This project is a static website using HTML5, CSS3 and Bootstrap5 framework. The test is covering:
 
-1. HTML/CSS validation,
-2. Testing website responsiveness (Chrome, Edge, Firefox, Galaxy S10),
-3. Website performance and best practise (Lighthouse Chrome Developer Tool),
-4. Visual aspects of the website: fonts and colour contrast (Chrome Developer Tool),
-5. Functionality - all links and buttons on each page working, contact form and layout,
-6. User stories test.
+### 1. [Functionality testing](docs/testing/TESTING-1.md):
 
-
-## Tests:
-
-### HTML CSS:
-
-[HTML Validator](https://validator.w3.org/)
-
-![About Page](assets/images-testing/xxx)
+    - W3C HTML Validator,
+    - W3C Jigsaw CSS Validator,
+    - JSHint JavaScript Validator,
+    - W3C Link Checker.
 
 
+### 2. [Compatibility testing and Responsiveness](docs/testing/TESTING-2.md):
 
-[Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator)
+    - Chrome, Edge, Opera, Galaxy S10
 
-![CSS file](assets/images-testing/2022-03-26-33.png)
 
-<p>
-    <a href="https://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="https://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" />
-    </a>
-</p>
-            
-Valid CSS!
-<p>
-    <a href="https://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
-            alt="Valid CSS!" />
-    </a>
-</p>
+### 3. [Performance testing](docs/testing/TESTING-3.md):
 
-All tests completed and passed.
+    - Chrome Dev Tools - Lighthouse
+
+     All tests completed and passed.
+
+
+### 4. Visual testing:
+
+    - Color contrast was tested using:
+[Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) and 
+[Contrast Checker](https://webaim.org/resources/contrastchecker/)
+
+    All tests completed and passed.
 
 
 [Back to Table Of Contents](#table-of-contents)
 
 
-### Manual testing Browser testing:
-
-- [Chrome](TESTING-2.md)
-- [Firefox](TESTING-2.md)
-- [Edge](TESTING-2.md)
-- [GalaxyS10](TESTING-2.md)
-
-All tests completed and passed.
-
-
-[Back to Table Of Contents](#table-of-contents)
-
-
-### Performance Testing:
-
-- [Chrome Dev Tools - Lighthouse](https://developers.google.com/web/tools/lighthouse/)
-
-[Test results](TESTING-2.md)
-
-All test completed and passed.
-
-[Back to Table Of Contents](#table-of-contents)
-
-
-### Visual testing:
-
-Color contrast was tested using:
-
-- [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
-- [Contrast Checker](https://webaim.org/resources/contrastchecker/)
-
- All tests completed and passed.
-
-
-[Back to Table Of Contents](#table-of-contents)
-
-
-### Funcionality testing:
+### 5. Funcionality testing:
 
 x
 x
@@ -390,7 +339,7 @@ x
 [Back to Table Of Contents](#table-of-contents)
 
 
-### Testing User Stories:
+### 6. Testing User Stories:
 
 #### First time user:
 

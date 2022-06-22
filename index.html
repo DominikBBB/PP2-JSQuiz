@@ -12,14 +12,14 @@
 
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/L02-saski-logo-small.jpg">
 
-    <!---------------------------------------------------------------CSS file source-->
+    <!-- CSS file source -->
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Saxon-Palace-Quiz</title>
 </head>
 
 <body>
-    <!---------------------------------------------------------Page1 Welcome section-->
+    <!-- Page1 Welcome section -->
 
     <div id="home" class="container">
 
@@ -52,7 +52,7 @@
 
     </div>
 
-    <!------------------------------------------------------Page2 Quiz-rules section-->
+    <!-- Page2 Quiz-rules section -->
 
     <div id="rules" class="container hide-content">
 
@@ -74,22 +74,22 @@
 
         <div class="bttm-section">
 
-            <div id="left-bttm">
-                <button type="button" id="restart-button" class="restart-btn" onclick="startQuiz()"
+            <div class="left-bttm">
+                <button type="button" class="restart-btn" onclick="startQuiz()"
                     aria-label="Quiz Restart button">Restart</button>
             </div>
 
-            <div id="center-bttm">
+            <div class="center-bttm">
             </div>
 
-            <div id="right-bttm">
+            <div class="right-bttm">
                 <button type="button" id="start-button" class="next-btn" aria-label="Quiz Start button">Start</button>
             </div>
 
         </div>
     </div>
 
-    <!-------------------------------------------------------------Page3 Quiz section-->
+    <!-- Page3 Quiz section -->
 
     <div id="quiz" class="container hide-content">
 
@@ -109,15 +109,15 @@
 
         <div class="bttm-section">
 
-            <div id="left-bttm">
-                <button type="button" id="restart-button" class="restart-btn" onclick="startQuiz()"
+            <div class="left-bttm">
+                <button type="button" class="restart-btn" onclick="startQuiz()"
                     aria-label="Quiz Restart button">Restart</button>
             </div>
 
-            <div id="center-bttm">
+            <div class="center-bttm">
             </div>
 
-            <div id="right-bttm">
+            <div class="right-bttm">
                 <button type="button" id="nextButton" class="next-btn nextQ"
                     aria-label="Quiz Next Question button">Next</button>
             </div>
@@ -126,7 +126,7 @@
 
     </div>
 
-    <!----------------------------------------------------Page4 Quiz-results section-->
+    <!-- Page4 Quiz-results section -->
 
     <div id="results" class="container hide-content">
 
@@ -136,18 +136,18 @@
 
         <div id="scoreboard" class="mid-section">
             <h2>Your Score:</h2>
-            <h2 id="points"></h2>
+            <h2 id="points">Points</h2>
         </div>
 
         <div class="bttm-section">
-            <div id="left-bttm">
-                <button type="button" id="restart-button" class="restart-btn" onclick="startQuiz()"
+            <div class="left-bttm">
+                <button type="button" class="restart-btn" onclick="startQuiz()"
                     aria-label="Quiz Start Again button">Start Again</button>
             </div>
-            <div id="center-bttm">
+            <div class="center-bttm">
 
             </div>
-            <div id="right-bttm">
+            <div class="right-bttm">
                 <button type="button" id="check-answer" class="next-btn" onclick="checkAnswer()"
                     aria-label="Check Answers button">Answers</button>
             </div>
@@ -155,7 +155,7 @@
     </div>
 
 
-    <!-----------------------------------------------------Page5 Quiz-answers section-->
+    <!-- Page5 Quiz-answers section -->
 
 
     <div id="answers" class="container hide-content">
@@ -173,30 +173,25 @@
 
         <div class="bttm-section">
 
-            <div id="left-bttm">
-                <button type="button" id="restart-button" class="restart-btn" onclick="startQuiz()"
+            <div class="left-bttm">
+                <button type="button" class="restart-btn" onclick="startQuiz()"
                     aria-label="Quiz Start Again button">Start Again</button>
             </div>
 
-            <div id="center-bttm">
+            <div class="center-bttm">
             </div>
 
-            <div id="right-bttm">
-                <span id="powered">
+            <div class="right-bttm">
+                <div id="powered">
                     <p>Powered by DB @2022</p>
-                </span>
+                </div>
             </div>
 
         </div>
 
     </div>
 
-
-    <!---------------------------------------------------Page6 Quiz-feedback section-->
-    <!--Future features of the quiz-->
-
-
-    <!--------------------------------------------------------------JS files sources-->
+    <!-- JS files sources -->
 
     <script src="./assets/js/questions.js"></script>
     <script src="./assets/js/script.js"></script>

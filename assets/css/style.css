@@ -66,17 +66,17 @@ body {
     margin: 0 auto;
 }
 
-#left-bttm {
+.left-bttm {
     width: 33%;
     float: left;
 }
 
-#center-bttm {
+.center-bttm {
     width: 33%;
     margin: 0 auto;
 }
 
-#right-bttm {
+.right-bttm {
     width: 33%;
     float: right;
 }
@@ -229,20 +229,8 @@ body {
     vertical-align: middle;
 }
 
-/* ----------------------------------------------------Page6 Quiz-feedback section-- */
-/* Future features of the quiz */
-
 
 /* ------------------------------------------------------------------- Media queries */
-
-/* @media screen and (max-width: 1200px) {    
-}
-
-@media screen and (max-width: 992px) {
-}
-
-@media screen and (max-width: 768px) {
-} */
 
 @media screen and (max-width: 576px) {
 
