@@ -334,11 +334,11 @@ There are two images used on the quiz-app website. The main source is [Polish Na
 
 - All pages are responsive. No bugs found.
 - Playername input form with enter button work. No bugs found.
-- The link to the external website works. It's openning in seperated tab. No bugs found.
+- The link to the external website works. It's opening in separated tab. No bugs found.
 - All Restart Buttons, Next Buttons, Start Again Buttons, Start button and Check Answers Button work. No bugs found.
-- All questions are loading correctly. The correct answers are calcutated correctly. No bugs found.
+- All questions are loading correctly. The correct answers are calculated correctly. No bugs found.
 - Hovering animations work as expected. No bugs found.
-- The curent number of the question displays correctly. No bugs found.
+- The current number of the question displays correctly. No bugs found.
 - Display of correct answers works. No bugs found.
 
 
@@ -409,7 +409,7 @@ All user expectations were fulfilled and tested to ensure user satisfaction.
 ## Bugs and Fixes:
 
 A few numbers of bugs showed up during the HTML and JS validation process.
-They are all fixed and all pages passed validation processes.
+They are all fixed, and all pages passed validation processes.
 Full list of bugs and validation results after they were fixed: [Bugs and Fixes](docs/testing/TESTING-1.md)
 
 
@@ -417,14 +417,14 @@ HTML:
 
 1. All duplicate id-atribiutes have been changed into class-atribiutes. CSS file was updated too,
 2. Id="restart-button" atribiutes have been removed,
-3. Empty heading was fullfill with placeholder "Points",
-4. <span> element has beed changed into <div> element,
+3. Empty heading was full fill with placeholder "Points",
+4. <span> element has been changed into <div> element,
 5. All comments which created warnings were edited. 
 
 JS:
 
 1. To fix warnings, /*jshint esversion: 6 */ needed to be added at the top of each js file,
-2. To fix 4 undefined variables, I tempraly copied questionBank variable from separeted .js file into script.js for testing purpose. Moreover, I created 3 new variables: stat, quiz and results.
+2. To fix 4 undefined variables, I temporarily copied questionBank variable from separated .js file into script.js for testing purpose. Moreover, I created 3 new variables: stat, quiz and results.
 3. There are 3 unused variables (calcScore, startQuiz, checkAnswers) which are onclick functions located in html file.
 
 No more errors found.
